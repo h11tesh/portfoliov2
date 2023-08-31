@@ -1,0 +1,58 @@
+html{
+  scroll-behavior: smooth;
+}
+
+.boldP{
+  font-style: oblique;
+  font-weight: bolder;
+}
+
+#document{
+  font-family: 'SofiaPro-Regular', Helvetica, sans-serif;
+}
+
+.navbar{
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(300deg, #8EC5FC, #9961ce);
+  background-size: 180% 180%;
+}
+
+#resume{
+    padding-bottom: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#footer{
+    padding-bottom: 30px;
+    background: linear-gradient(300deg, #9961ce, #8EC5FC);
+    background-size: 180% 180%;
+    animation: gradient-animation 7s ease infinite;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #eeaeca, #8EC5FC, #9961ce);
+  background-size: 180% 180%;
+  animation: gradient-animation 8s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.visibilityToggle{
+  background: 0;
+}
+
+#navBtn{
+  border-width: 0;
+  font-size: x-large;
+}
